@@ -1,0 +1,14 @@
+WINDOWS COMMANDS:
+
+IPCONFIG /ALL
+IPCONFIG /RELEASE
+IPCONFIG /RENEW
+
+del /q/f/s %temp%\*
+
+netsh int ip reset
+
+sfc /scannow
+
+net user administrator /active:yes
+
