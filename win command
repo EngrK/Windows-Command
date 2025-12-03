@@ -12,3 +12,11 @@ sfc /scannow
 
 net user administrator /active:yes
 
+
+============
+show all apps : shell:appsfolder
+
+folder enable & disable : cacls "Nameoffolder" /e /p everyone:f
+cacls "Nameoffolder" /e /p everyone:n
+
+
