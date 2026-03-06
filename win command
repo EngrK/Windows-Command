@@ -20,3 +20,5 @@ folder enable & disable : cacls "Nameoffolder" /e /p everyone:f
 cacls "Nameoffolder" /e /p everyone:n
 
 
+AlT + Z in VSC is Maximize the Line
+Ctrl + L is Select the Line
